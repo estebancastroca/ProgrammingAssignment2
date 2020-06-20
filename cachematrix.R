@@ -46,25 +46,3 @@ cacheSolve(tmatrix)
 
 tmatrix$getInverse()
 
-#######
-tmatrix <- makeCacheMatrix(matrix(1:16, nrow = 2, ncol = 2))
-
-tmatrix$get()
-
-tmatrix$getInverse()
-
-cacheSolve(tmatrix)
-
-tmatrix <- makeCacheMatrix(matrix(1:4, nrow = 2, ncol = 2))
-tmatrix$get()
-
-my_matrix <- makeCacheMatrix(matrix(1:4, 2, 2))
-my_matrix$get()
-
-pmatrix$getInverse()
-cacheSolve(tmatrix)
-
-cacheSolve(tmatrix)
-
-tmatrix$getInverse()
-
